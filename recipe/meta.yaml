@@ -22,6 +22,7 @@ requirements:
     - python {{ python_min }}
     - pip
     - six
+    - setuptools
   run:
     - python >={{ python_min }}
     - six
